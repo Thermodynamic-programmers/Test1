@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">&lt;Dev/&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <div class="container">
+                <div class="profile-header">
+                    <div class="avatar-container">
+                        <div class="avatar">
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="100" cy="80" r="50" fill="#8b949e"/>
+                                <ellipse cx="100" cy="170" rx="70" ry="50" fill="#8b949e"/>
+                            </svg>
+                        </div>
+                        <div class="status-badge">Available for hire</div>
+                    </div>
+                    <div class="profile-info">
+                        <h1>Alex Developer</h1>
+                        <p class="tagline">Full Stack Developer | Open Source Enthusiast | Problem Solver</p>
+                        <p class="location">📍 San Francisco, CA</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Contributions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bio-section">
+                    <h2>About Me</h2>
+                    <p>
+                        Passionate software developer with 5+ years of experience building scalable web applications. 
+                        I specialize in JavaScript/TypeScript ecosystems and have a strong background in both frontend 
+                        and backend development. When I'm not coding, you can find me contributing to open-source 
+                        projects, writing technical articles, or exploring new technologies.
+                    </p>
+                    <p>
+                        I believe in writing clean, maintainable code and creating user experiences that make a difference. 
+                        Currently focused on building performant web applications and exploring cloud architectures.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <h2 class="section-title">
+                    <svg class="icon" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M11.93 8.5a4.002 4.002 0 00-7.86 0H.75a.75.75 0 000 1.5h3.32a4.002 4.002 0 007.86 0h3.32a.75.75 0 000-1.5h-3.32z"/>
+                    </svg>
+                    Technical Skills
+                </h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3/SASS</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">GraphQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>DevOps & Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">CI/CD</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">Nginx</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                            <span class="skill-tag">Terraform</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Other</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Agile/Scrum</span>
+                            <span class="skill-tag">System Design</span>
+                            <span class="skill-tag">Testing (Jest, Pytest)</span>
+                            <span class="skill-tag">Code Review</span>
+                            <span class="skill-tag">Technical Writing</span>
+                            <span class="skill-tag">Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title">
+                    <svg class="icon" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+                    </svg>
+                    Featured Projects
+                </h2>
+                <div class="projects-grid">
+                    <div class="project-card pinned">
+                        <div class="project-header">
+                            <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"/>
+                            </svg>
+                            <span class="project-name">ecommerce-platform</span>
+                            <span class="badge public">Public</span>
+                        </div>
+                        <p class="project-description">
+                            Full-featured e-commerce platform with real-time inventory management, payment processing, 
+                            and analytics dashboard. Built with modern tech stack.
+                        </p>
+                        <div class="project-meta">
+                            <span class="language">
+                                <span class="language-dot" style="background-color: #f1e05a;"></span>
+                                JavaScript
+                            </span>
+                            <span class="stars">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+                                </svg>
+                                234
+                            </span>
+                            <span class="forks">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                                </svg>
+                                56
+                            </span>
+                        </div>
+                        <div class="project-topics">
+                            <span class="topic">react</span>
+                            <span class="topic">nodejs</span>
+                            <span class="topic">mongodb</span>
+                            <span class="topic">ecommerce</span>
+                        </div>
+                        <div class="project-updated">Updated 3 days ago</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"/>
+                            </svg>
+                            <span class="project-name">task-manager-api</span>
+                            <span class="badge public">Public</span>
+                        </div>
+                        <p class="project-description">
+                            RESTful API for task management application with authentication, real-time updates, 
+                            and team collaboration features.
+                        </p>
+                        <div class="project-meta">
+                            <span class="language">
+                                <span class="language-dot" style="background-color: #3178c6;"></span>
+                                TypeScript
+                            </span>
+                            <span class="stars">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+                                </svg>
+                                189
+                            </span>
+                            <span class="forks">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                                </svg>
+                                42
+                            </span>
+                        </div>
+                        <div class="project-topics">
+                            <span class="topic">typescript</span>
+                            <span class="topic">express</span>
+                            <span class="topic">postgresql</span>
+                            <span class="topic">api</span>
+                        </div>
+                        <div class="project-updated">Updated last week</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"/>
+                            </svg>
+                            <span class="project-name">weather-dashboard</span>
+                            <span class="badge public">Public</span>
+                        </div>
+                        <p class="project-description">
+                            Beautiful weather dashboard with location-based forecasts, interactive maps, 
+                            and severe weather alerts.
+                        </p>
+                        <div class="project-meta">
+                            <span class="language">
+                                <span class="language-dot" style="background-color: #e34c26;"></span>
+                                HTML
+                            </span>
+                            <span class="stars">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+                                </svg>
+                                156
+                            </span>
+                            <span class="forks">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                                </svg>
+                                38
+                            </span>
+                        </div>
+                        <div class="project-topics">
+                            <span class="topic">javascript</span>
+                            <span class="topic">css</span>
+                            <span class="topic">api</span>
+                            <span class="topic">weather</span>
+                        </div>
+                        <div class="project-updated">Updated 2 weeks ago</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"/>
+                            </svg>
+                            <span class="project-name">dev-portfolio-template</span>
+                            <span class="badge public">Public</span>
+                        </div>
+                        <p class="project-description">
+                            Clean and modern portfolio template for developers. Easy to customize and deploy. 
+                            Includes dark mode and responsive design.
+                        </p>
+                        <div class="project-meta">
+                            <span class="language">
+                                <span class="language-dot" style="background-color: #563d7c;"></span>
+                                CSS
+                            </span>
+                            <span class="stars">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+                                </svg>
+                                312
+                            </span>
+                            <span class="forks">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                                </svg>
+                                89
+                            </span>
+                        </div>
+                        <div class="project-topics">
+                            <span class="topic">html</span>
+                            <span class="topic">css</span>
+                            <span class="topic">portfolio</span>
+                            <span class="topic">template</span>
+                        </div>
+                        <div class="project-updated">Updated yesterday</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"/>
+                            </svg>
+                            <span class="project-name">cli-toolkit</span>
+                            <span class="badge private">Private</span>
+                        </div>
+                        <p class="project-description">
+                            Collection of command-line tools for developer productivity. Includes utilities for 
+                            git workflows, project scaffolding, and automation.
+                        </p>
+                        <div class="project-meta">
+                            <span class="language">
+                                <span class="language-dot" style="background-color: #3178c6;"></span>
+                                TypeScript
+                            </span>
+                            <span class="stars">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+                                </svg>
+                                78
+                            </span>
+                            <span class="forks">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                                </svg>
+                                12
+                            </span>
+                        </div>
+                        <div class="project-topics">
+                            <span class="topic">nodejs</span>
+                            <span class="topic">cli</span>
+                            <span class="topic">productivity</span>
+                            <span class="topic">automation</span>
+                        </div>
+                        <div class="project-updated">Updated 5 days ago</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"/>
+                            </svg>
+                            <span class="project-name">machine-learning-experiments</span>
+                            <span class="badge public">Public</span>
+                        </div>
+                        <p class="project-description">
+                            Experiments and implementations of various ML algorithms. Includes neural networks, 
+                            classification models, and data visualization.
+                        </p>
+                        <div class="project-meta">
+                            <span class="language">
+                                <span class="language-dot" style="background-color: #3572A5;"></span>
+                                Python
+                            </span>
+                            <span class="stars">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+                                </svg>
+                                201
+                            </span>
+                            <span class="forks">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                                </svg>
+                                67
+                            </span>
+                        </div>
+                        <div class="project-topics">
+                            <span class="topic">python</span>
+                            <span class="topic">machine-learning</span>
+                            <span class="topic">tensorflow</span>
+                            <span class="topic">data-science</span>
+                        </div>
+                        <div class="project-updated">Updated last month</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <div class="container">
+                <h2 class="section-title">
+                    <svg class="icon" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M10.804 2.5H5.196a.693.693 0 00-.691.603l-.36 3.593a.295.295 0 01-.291.268H.75a.75.75 0 000 1.5h3.104a.693.693 0 00.691-.603l.36-3.593a.295.295 0 01.291-.268h5.608a.693.693 0 00.691.603l.36 3.593a.295.295 0 01.291.268h3.104a.75.75 0 000-1.5h-3.104a.693.693 0 00-.691-.603l-.36-3.593a.295.295 0 01-.291-.268zM5.196 9.5h5.608a.693.693 0 00.691-.603l.36-3.593a.295.295 0 01.291-.268h3.104a.75.75 0 010 1.5h-3.104a.693.693 0 01-.691.603l-.36 3.593a.295.295 0 00-.291.268H5.196a.693.693 0 01-.691-.603l-.36-3.593a.295.295 0 00-.291-.268H.75a.75.75 0 010-1.5h3.104a.693.693 0 01.691.603l.36 3.593a.295.295 0 00.291.268z"/>
+                    </svg>
+                    Experience
+                </h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Full Stack Developer</h3>
+                                <span class="company">TechCorp Inc.</span>
+                            </div>
+                            <div class="timeline-date">2022 - Present</div>
+                            <p>Leading development of microservices architecture serving 1M+ daily users. 
+                            Mentoring junior developers and establishing best practices for code quality and testing.</p>
+                            <div class="timeline-tags">
+                                <span class="skill-tag-small">React</span>
+                                <span class="skill-tag-small">Node.js</span>
+                                <span class="skill-tag-small">AWS</span>
+                                <span class="skill-tag-small">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Full Stack Developer</h3>
+                                <span class="company">StartupXYZ</span>
+                            </div>
+                            <div class="timeline-date">2020 - 2022</div>
+                            <p>Built and maintained multiple customer-facing applications. Implemented CI/CD pipelines 
+                            reducing deployment time by 60%. Collaborated with design team to improve UX.</p>
+                            <div class="timeline-tags">
+                                <span class="skill-tag-small">Vue.js</span>
+                                <span class="skill-tag-small">Python</span>
+                                <span class="skill-tag-small">PostgreSQL</span>
+                                <span class="skill-tag-small">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Junior Developer</h3>
+                                <span class="company">WebAgency Co.</span>
+                            </div>
+                            <div class="timeline-date">2019 - 2020</div>
+                            <p>Developed responsive websites and web applications for various clients. 
+                            Gained experience in agile methodologies and client communication.</p>
+                            <div class="timeline-tags">
+                                <span class="skill-tag-small">JavaScript</span>
+                                <span class="skill-tag-small">PHP</span>
+                                <span class="skill-tag-small">MySQL</span>
+                                <span class="skill-tag-small">WordPress</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <h2 class="section-title">
+                    <svg class="icon" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M1.75 2A1.75 1.75 0 000 3.75v.736a.75.75 0 000 .027v7.737C0 13.216.784 14 1.75 14h12.5A1.75 1.75 0 0016 12.25v-8.5A1.75 1.75 0 0014.25 2H1.75zM14.5 4.07v-.32a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25v.32L8 7.88l6.5-3.81zm0 1.72L8 9.6 1.5 5.79V4.255l6.117 3.57a.75.75 0 00.766 0L14.5 4.21v1.58z"/>
+                    </svg>
+                    Get In Touch
+                </h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p>I'm currently open to new opportunities and interesting projects. 
+                        Whether you have a question or just want to say hi, feel free to reach out!</p>
+                        <div class="contact-links">
+                            <a href="mailto:alex@developer.com" class="contact-link">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M1.75 2A1.75 1.75 0 000 3.75v.736a.75.75 0 000 .027v7.737C0 13.216.784 14 1.75 14h12.5A1.75 1.75 0 0016 12.25v-8.5A1.75 1.75 0 0014.25 2H1.75zM14.5 4.07v-.32a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25v.32L8 7.88l6.5-3.81zm0 1.72L8 9.6 1.5 5.79V4.255l6.117 3.57a.75.75 0 00.766 0L14.5 4.21v1.58z"/>
+                                </svg>
+                                alex@developer.com
+                            </a>
+                            <a href="#" class="contact-link">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-4.22 0-.93.25-1.8.67-2.59.51-.15 1.7-.27 1.7-.27s1.19.08 1.7.27c.42.79.67 1.66.67 2.59 0 3.33-1.86 4.02-3.64 4.22.22.2.42.55.42 1.07 0 .77-.01 1.4-.01 1.49 0 .21.15.45.55.38A8.001 8.001 0 008 0z"/>
+                                </svg>
+                                github.com/alexdev
+                            </a>
+                            <a href="#" class="contact-link">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M15.25 2a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9a2.5 2.5 0 012.5-2.5h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm-3.5 4.5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1h2a1 1 0 001-1v-2z"/>
+                                </svg>
+                                linkedin.com/in/alexdev
+                            </a>
+                            <a href="#" class="contact-link">
+                                <svg viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M13.794 2.327a1.384 1.384 0 00-.617-.59l-4.334-1.68a1.41 1.41 0 00-1.009 0L3.496 1.738a1.385 1.385 0 00-.617.59L.752 6.927a1.38 1.38 0 00-.002 1.29l2.127 4.599a1.385 1.385 0 00.617.59l4.334 1.68a1.41 1.41 0 001.009 0l4.338-1.68a1.385 1.385 0 00.617-.59l2.127-4.6a1.38 1.38 0 000-1.29l-2.126-4.6zM8 10.927a2.927 2.927 0 110-5.854 2.927 2.927 0 010 5.854z"/>
+                                    <circle cx="8" cy="8" r="1.5"/>
+                                </svg>
+                                @alex_dev
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <svg viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M1.75 2A1.75 1.75 0 000 3.75v.736a.75.75 0 000 .027v7.737C0 13.216.784 14 1.75 14h12.5A1.75 1.75 0 0016 12.25v-8.5A1.75 1.75 0 0014.25 2H1.75zM14.5 4.07v-.32a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25v.32L8 7.88l6.5-3.81zm0 1.72L8 9.6 1.5 5.79V4.255l6.117 3.57a.75.75 0 00.766 0L14.5 4.21v1.58z"/>
+                            </svg>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Alex Developer. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
